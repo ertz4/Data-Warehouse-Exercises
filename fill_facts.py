@@ -2,7 +2,6 @@
 # Author: Paul Goebel, 2035351
 
 import psycopg2
-import json
 
 # Setup connection to DB
 conn = psycopg2.connect("dbname='postgres' user='postgres' password='setpassword' host='localhost' port='5432'")
